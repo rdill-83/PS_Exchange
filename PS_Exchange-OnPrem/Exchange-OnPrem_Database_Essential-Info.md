@@ -1,9 +1,9 @@
 ### Exchange_Database_Essential-Info
 
 #### Essential Info CMDLET:
-```
+``
 Get-MailboxDatabase | FL Name,EDBFilePath,LogFolderPath,CircularLoggingEnabled,*FullBackup
-```
+``
 
 #### View All Mailbox DB Info CMDLET:
 ``
