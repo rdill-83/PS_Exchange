@@ -2,7 +2,7 @@
 
 ## Convert CSV List of Users to Shared Mailboxes
 
-### Note - CSV Needs Header w/ 'mailbox'
+### Note - CSV Requires Header title 'mailbox'
 
 
 $mailboxes = Import-CSV -Path .\<your-file>.csv
