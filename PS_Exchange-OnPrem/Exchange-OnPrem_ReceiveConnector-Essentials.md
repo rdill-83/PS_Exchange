@@ -49,7 +49,7 @@ Get-ReceiveConnector '<svr-name>\<connector-name>'
 Set-ReceiveConnector '<connector-name>' -MaxInboundConnection 5000 -MaxInboundConnectionPerSource 500 -MaxInboundConnectionPercentagePerSource 20
 ``
 
-### Incase you ever need to stop all inbound mailflow for <insert reason>
+### Incase you ever need to stop all inbound mailflow for `<insert reason>`
 #### Stop All Inbound Mail Flow CMDLET:
 ``
 Get-ReceiveConnector | Set-ReceiveConnector -Enabled $False
